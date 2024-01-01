@@ -1,3 +1,16 @@
 body{
     background-color: rgb(15,15,15);
+    margin: 0 0 0 0;
+}
+
+.nav-bar{
+    background-color: aliceblue;
+    height: 56px;
+    width: 100%;
+}
+
+.menu{
+    background-color: antiquewhite;
+    height: 720px;
+    width: 15.4%;
 }
