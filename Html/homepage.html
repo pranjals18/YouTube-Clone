@@ -1,28 +1,438 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Clone</title>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/Css/homepage.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="/Images/icons/menu.png">
+            <img class="youtube-logo" src="/Images/icons/youtube-logo.png">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="/Images/icons/search.png">
+                <div class="tooltip">Search</div>
+            </button>
+            <!-- Put position absolute inside position relative -->
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="/Images/icons/mic.png">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="/Images/icons/video-camera.png">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="/Images/icons/bell.png">
+                <!-- <div class="notifications-count">1</div> -->
+            </div>
+            <img class="current-user-picture" src="/Images/Channel-Logo/Profile-pic.jpg">
+        </div>
+    </header>
 
-   <div>
 
-    <div class="nav-bar">
 
-    </div>
 
-    <div class="menu"> 
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/homepage.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Home</p>
+            </div>
+        </div>
 
-    </div>
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/yt-shorts.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Shorts</p>
+            </div>
+        </div>
 
-    <div class="feed">
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/subscribe.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Subscriptions</p>
+            </div>
+        </div>
 
-    </div>
+        <div class="line"></div>
 
-   </div>
-    
+        <div class="sidebar-title">
+            You
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/history.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">History</p>
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/watch-later.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Watch Later</p>
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/liked-videos.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Liked Videos</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="sidebar-title">
+            Subscriptions
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img class="sub-channel" src="/Images/Channel-Logo/Anuv Jain.jpg">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Anuv Jain</p>
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img class="sub-channel" src="/Images/Channel-Logo/Vismay Patel.jpg">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Vismay Patel</p>
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img class="sub-channel" src="/Images/Channel-Logo/Aditya Rikhari - FAASLE.jpg">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Aditya Rikhari</p>
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+        <div class="line"></div>
+
+        <div class="sidebar-title">
+            Explore
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/trending.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Trending</p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-link">
+            <div class="icons">
+                <img src="/Images/icons/browse-channel.png">
+            </div>
+            <div class="icon-name">
+                <p class="icon-fun">Browse Channel</p>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+
+
+    <main class="feed">
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Aakho-se-Batana.webp">
+                    <div class="video-time">3:43</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Dikshant.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Dikshant - Aankhon Se Batana (Official Video)
+                        </p>
+                        <p class="video-author">
+                            Dikshant
+                        </p>
+                        <p class="video-stats">
+                            31M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Alag-Aasmaan.jpg">
+                    <div class="video-time">3:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Anuv Jain.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Anuv Jain - Alag Aasmaan (Acoustic)
+                        </p>
+                        <p class="video-author">
+                            Anuv Jain
+                        </p>
+                        <p class="video-stats">
+                            5.4M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Baarishein.webp">
+                    <div class="video-time">3:35</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Anuv Jain.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Anuv Jain - BAARISHEIN (ACOUSTIC)
+                        </p>
+                        <p class="video-author">
+                            Anuv Jain
+                        </p>
+                        <p class="video-stats">
+                            9M views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Downers-at-Dusk.webp">
+                    <div class="video-time">4:40</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Talha Anjum.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Downers At Dusk - Talha Anjum | Prod. by Umair (Official Music Video)
+                        </p>
+                        <p class="video-author">
+                            Talha Anjum
+                        </p>
+                        <p class="video-stats">
+                            11M views &#183; 3 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Faasle.webp">
+                    <div class="video-time">3:37</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Aditya Rikhari - FAASLE.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Aditya Rikhari - FAASLE
+                        </p>
+                        <p class="video-author">
+                            Aditya Rikhari
+                        </p>
+                        <p class="video-stats">
+                            28M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Gul.webp">
+                    <div class="video-time">3:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Anuv Jain.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Anuv Jain - GUL (Studio)
+                        </p>
+                        <p class="video-author">
+                            Anuv Jain
+                        </p>
+                        <p class="video-stats">
+                            40M views &#183; 2 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Lage-Nahi-Man.webp">
+                    <div class="video-time">3:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Vismay Patel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Vismay Patel - Lage Nahi Man (Official Lyric Video)
+                        </p>
+                        <p class="video-author">
+                            Vismay Patel
+                        </p>
+                        <p class="video-stats">
+                            345K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Nasamajh.webp">
+                    <div class="video-time">4:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Aditya Rikhari - FAASLE.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Aditya Rikhari - NASAMAJH
+                        </p>
+                        <p class="video-author">
+                            Aditya Rikhari
+                        </p>
+                        <p class="video-stats">
+                            5.4M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="/Images/Thumbnails/Pal-Behta-Jaaye.jpg">
+                    <div class="video-time">3:04</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/Images/Channel-Logo/Vismay Patel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Vismay Patel - Pal Behta Jaaye (Acoustic Version)
+                        </p>
+                        <p class="video-author">
+                            Vismay Patel
+                        </p>
+                        <p class="video-stats">
+                            3.1M views &#183; 3 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
 </body>
+
 </html>
